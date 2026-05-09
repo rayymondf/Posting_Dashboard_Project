@@ -11,6 +11,7 @@ The app is intentionally simple: posts and likes are supported, while comments, 
 - **Authentication:** Passport local strategy, express-session, connect-pg-simple, bcryptjs
 - **Database:** PostgreSQL with the `pg` package
 - **Tooling:** dotenv, nodemon, concurrently, lucide-react
+- **Hosting Service:** Render(web app/server), Neon(database)
 
 ## Main Features
 
