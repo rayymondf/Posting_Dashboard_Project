@@ -55,7 +55,7 @@ export default function AppShell({
       </aside>
 
       <main className="timeline">
-        {activeView !== 'profile' ? (
+        {activeView !== 'profile' && activeView !== 'me' ? (
           <header className="timeline-header">
             <h1>{title}</h1>
           </header>
